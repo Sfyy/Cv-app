@@ -1,0 +1,95 @@
+.practical-experience-container {
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.practical-experience-container input[type="date"] {
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.practical-experience-container input[type="text"] {
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.practical-experience-container p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+button[type="button"] {
+    background-color: #5a6268;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#edit {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+strong {
+    font-weight: bold;
+}
